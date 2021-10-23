@@ -32,7 +32,7 @@
        (list "my-org-site"
 	     :recursive t
 	     :base-directory "./"
-	     :publishing-directory "../html"
+	     :publishing-directory "./public"
 	     :publishing-function 'org-html-publish-to-html
 	     :with-author nil
 	     :with-creater nil
