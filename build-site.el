@@ -13,19 +13,13 @@
 
 (package-install 'htmlize)
 
-
-
-
-
-
- 
-
 (require 'ox-publish)
 
 (setq org-html-validation-link nil
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
-      org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" /> ")
+      ;;org-html-head "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" /> "
+      )
 
 (setq org-publish-project-alist
       (list
@@ -43,6 +37,5 @@
 )))
 
 (org-publish-all t)
-
 
 (message "Build Complete!")
