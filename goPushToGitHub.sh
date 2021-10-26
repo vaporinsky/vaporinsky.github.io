@@ -1,4 +1,4 @@
-COMMIT_TIME=$(date '+%Y.%m.%d.%S') 
+COMMIT_TIME=$(date '+%Y-%m-%d=%H.%M.%S')
 echo $COMMIT_TIME
 
 git add .
