@@ -1,3 +1,6 @@
+#+TITLE: Hello O!
+#+AUTHOR: John, S
+
 
 * 금강경원문  
 

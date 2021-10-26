@@ -1,5 +1,3 @@
-#+TITLE: Hello O!
-#+AUTHOR: John, S
 
 
 
