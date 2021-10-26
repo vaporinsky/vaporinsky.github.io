@@ -26,7 +26,7 @@
 
 
  
-+ [[./example1.html]Example1]]
++ [[./example1.html][Example1]]
 
 [[./example2.html][Example2]]
 
