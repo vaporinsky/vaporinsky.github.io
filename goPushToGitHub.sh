@@ -1,6 +1,7 @@
+COMMIT_TIME=$(date '+%y%m%d')
+
 git add .
-git commit -m "TT"
-COMMIT_TIME=$date
-echo $COOMIT_TIME
+git commit -m $COMMIT_TIME
 git push
+
 

@@ -1,0 +1,2 @@
+COMMIT_TIME=$date
+echo $COMMIT_TIME
