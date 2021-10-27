@@ -2,7 +2,6 @@
 #+STARTUP: showall
 
 rain drops...
-
  
 [[tenDisciplels.html][tenDisciples]]
 
