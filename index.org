@@ -1,7 +1,13 @@
-#+TITLE: just like rain drops
+#+TITLE: Just like rain drops
 #+STARTUP: showall
 
 rain drops...
+
+ 
+[[tenDisciplels.html][tenDisciples]]
+
+[[diamondSutra.html][diamondSutra]]
+
 
 
  
@@ -35,17 +41,3 @@ rain drops...
 
 
 
-1. A
-2. B
-3. C
-4. D
-5. E
-
-
-* Hello
-** H
-  + A
-  + B
-  + C
-  + D
-  + E
