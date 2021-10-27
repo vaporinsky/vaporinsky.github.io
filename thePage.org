@@ -1,6 +1,4 @@
-#-*- mode: org -*-
 #+TITLE: #-*- mode: org -*-
-
 #+STARTUP: showall
 
 
