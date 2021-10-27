@@ -1,3 +1,6 @@
+#-*- mode: org -*-
+#+STARTUP: showall
+
 
 like a rain drop...
 
@@ -15,8 +18,5 @@ like a rain drop...
   + A
   + B
   + C
-
-    
-
-    
-    
+  + D
+  + E
