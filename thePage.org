@@ -1,8 +1,10 @@
 #-*- mode: org -*-
+#+TITLE: #-*- mode: org -*-
+
 #+STARTUP: showall
 
 
-like a rain drop...
+rain drops...
 
 
 
