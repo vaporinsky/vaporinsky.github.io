@@ -6,9 +6,9 @@
 rain drops...
 
 
-[[tenDisciples.html][tenDisciples]]
+[[./tenDisciples.html][tenDisciples]]
 
-[[diamondSutra.html][diamondSutra]]
+[[./diamondSutra.html][diamondSutra]]
 
 
 
