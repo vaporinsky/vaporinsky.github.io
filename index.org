@@ -1,5 +1,7 @@
 #+TITLE: Just like rain drops
 #+STARTUP: showall
+#+OPTIONS: broken-links:t
+
 
 rain drops...
  
