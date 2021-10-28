@@ -9,17 +9,12 @@ rain drops...
 [[./tenDisciples.html][tenDisciples]]
 
 [[./diamondSutra.html][diamondSutra]]
-
-
-
  
-+ [[./example1.html][Example1]]
+[[./orgIntro.html][org mode Intro]]
+
+[[./transKC.org][transKC]]
 
 
-
-[[./example2.html][Example2]]
-
-[[./example3.html][Example3]]
 
 
 
