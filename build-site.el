@@ -35,6 +35,7 @@
 	     :time-stamp-file nil
 
 )))
+(setq org-export-with-broken-links:t)
 
 (org-publish-all t)
 
