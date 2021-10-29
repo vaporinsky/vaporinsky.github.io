@@ -5,6 +5,7 @@
 
 rain drops...
 
+[[./teaSimple.html][teaSimple]]
 
 [[./tenDisciples.html][tenDisciples]]
 
