@@ -13,6 +13,8 @@ rain drops...
  
 [[./orgIntro.html][org mode Intro]]
 
+[[~/example3.html][getSquare]]
+
 [[http://35.84.222.41:3000][transKC]]
 
 
