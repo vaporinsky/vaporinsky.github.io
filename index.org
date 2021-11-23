@@ -7,7 +7,7 @@ rain drops...
 
 [[./teaSimple.html][teaSimple]]
 
-[[./tendisciples.html][tenDisciples]]
+[[./tenDisciples.html][tenDisciples]]
 
 [[./diamondSutra.html][diamondSutra]]
  
