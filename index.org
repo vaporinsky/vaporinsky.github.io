@@ -1,9 +1,8 @@
-#+TITLE: Just like rain drops
+#+TITLE: Org-mode HTML Test Page
 #+STARTUP: showall
 #+OPTIONS: broken-links:marks
 
 
-rain drops...
 
 [[./teaSimple.html][teaSimple]]
 
@@ -15,7 +14,7 @@ rain drops...
 
 [[./example3.html][getSquare]]
 
-[[http://35.84.222.41:3000][transKC]]
+[[http://35.84.222.41:3000][transKC]]  not work
 
 [[./3Paris.html][3Paris]]
 
@@ -24,20 +23,24 @@ rain drops...
 
 
 
-1. A
-2. B
-3. C
-4. D
 
 
 
-* Hello
-** H
-  + A
-  + B
-  + C
-  + D
-  + E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
