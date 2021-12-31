@@ -12,11 +12,8 @@
  
 [[./orgIntro.html][org mode Intro]]
 
-[[./example3.html][getSquare]]
-
 [[http://35.84.222.41:3000][transKC]]  not work
 
-[[./3Paris.html][3Paris]]
 
 
 
