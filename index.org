@@ -5,6 +5,7 @@
 
 
 [[https://github.com/vaporinsky/vaporinsky.github.io][Repository of this web page]]
+
 [[./tenDisciples.html][orgModeIntro]]
 
 
