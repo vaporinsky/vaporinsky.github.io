@@ -11,7 +11,7 @@
 
 [[./diamondSutra.html][diamondSutra]]
  
-[[./orgIntro.html][org mode Intro]]
+[[./orgIntro.html][orgModeIntro]]
 
 
 
