@@ -1,4 +1,4 @@
-#+TITLE: Org-mode HTML Markup Test Page
+#+TITLE: Org-mode HTML Markup Test
 #+STARTUP: showall
 #+OPTIONS: broken-links:marks
 
