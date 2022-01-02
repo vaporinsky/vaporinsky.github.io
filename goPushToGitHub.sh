@@ -1,4 +1,4 @@
-COMMIT_TIME=$(TZ=":Asia/Tokyo" date '+%Y-%m-%d=%H.%M.%S')
+COMMIT_TIME=$(TZ=":Asia/Tokyo" date '+%Y-%m-%d>>%H.%M.%S')
 echo ""
 echo "Time Now! -------------> $COMMIT_TIME"
 echo ""
