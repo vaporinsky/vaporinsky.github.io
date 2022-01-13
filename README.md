@@ -1,5 +1,7 @@
 # vaporinsky.github.io
 # vaporinsky
 
-.github/workflows has Github actions. it generates html files when "pushed"
+.github/workflows inclues Github actions, it generates html files when "goPush"
+
+
 
