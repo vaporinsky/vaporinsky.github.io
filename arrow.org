@@ -6,7 +6,7 @@
 
 
 
-[[file:image/Difference_between_arabic_and_persian_maths_limit.PNG][AARR]]
+[[./image/Difference_between_arabic_and_persian_maths_limit.PNG][AARR]]
 
 
 
