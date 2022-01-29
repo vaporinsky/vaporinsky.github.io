@@ -1,7 +1,8 @@
 #+STARTUP: inlineimages
 
 
-[[Test][../image/Difference_between_arabic_and_persian_maths_limit.PNG]]
+[[../image/Difference_between_arabic_and_persian_maths_limit.PNG][Test]]
+
 
 
 
