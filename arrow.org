@@ -1,9 +1,12 @@
 #+STARTUP: inlineimages
-#+ATTR_HTML: :src /image/arrow.png
+#+ATTR_HTML: :src 
 
-[[./arrow1.png]]
+[[./arrow.png]]
 
-[[file:./image/arrow.png]]
+[[./image/arrow.png]]
+
+
+
 
 
 
