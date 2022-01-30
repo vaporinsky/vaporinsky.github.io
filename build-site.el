@@ -19,8 +19,8 @@
       org-html-head-include-scripts nil
       org-html-head-include-default-style nil
       org-html-head ;;nil
-      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" /> "
-; "<link rel=\"stylesheet\" href=\"https://unpkg.com/purecss@2.0.6/build/pure-min.css\" integrity=\"sha384-Uu6IeWbM+gzNVXJcM9XV3SohHtmWE+3VGi496jvgX1jyvDTXfdK+rfZc8C1Aehk5\" crossorigin=\"anonymous\">"
+;      "<link rel=\"stylesheet\" href=\"https://cdn.simplecss.org/simple.min.css\" /> "
+ "<link rel=\"stylesheet\" href=\"https://unpkg.com/purecss@2.0.6/build/pure-min.css\" /> " 
       )
 
 (setq org-publish-project-alist
