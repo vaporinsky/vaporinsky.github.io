@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" /> 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<p>
+This is the example org-mode file used for the Denver Emacs org-mode
+introduction talk. Everything in this talk should work without any custom
+settings or installation with a reasonably recent Emacs version.
+</p>
+
+<p>
+Let's start with a headline, this is kind of like Markdown's # character:
+</p>
+
+<div id="outline-container-org3c1f5cf" class="outline-2">
+<h2 id="org3c1f5cf"><span class="section-number-2">1</span> This is an example headline</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Text can be put into the headline. You can create another headline at the same
+level with another * character
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd997665" class="outline-2">
+<h2 id="orgd997665"><span class="section-number-2">2</span> Another headline</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+Nesting headlines is as easy as adding another start
+</p>
+</div>
+
+<div id="outline-container-org9c63465" class="outline-3">
+<h3 id="org9c63465"><span class="section-number-3">2.1</span> Nested headline</h3>
+</div>
+
+<div id="outline-container-orgc401fcd" class="outline-3">
+<h3 id="orgc401fcd"><span class="section-number-3">2.2</span> Another nested headline</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org52dfbc6" class="outline-4">
+<h4 id="org52dfbc6"><span class="section-number-4">2.2.1</span> Deeper</h4>
+</div>
+</div>
+
+<div id="outline-container-orgfe69b66" class="outline-3">
+<h3 id="orgfe69b66"><span class="section-number-3">2.3</span> Another headline</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<ol class="org-ol">
+<li><a id="orgacd8b0d"></a>Deeper&#x2026;<br />
+<ol class="org-ol">
+<li><a id="org56e38ca"></a>Deeper&#x2026;..<br /></li>
+</ol>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org0ca5e2c" class="outline-2">
+<h2 id="org0ca5e2c"><span class="section-number-2">3</span> Basic markup</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+You can really go as deep as you want. This is the general building block for
+org-mode navigation.
+</p>
+
+<p>
+Next, let's talk about some markup
+</p>
+
+<ul class="org-ul">
+<li><span class="underline">underscores let you underline things</span></li>
+<li><b>stars add emphasis</b></li>
+<li><i>slashes are italics</i></li>
+<li><del>pluses are strikethrough</del></li>
+<li><code>equal signs are verbatim text</code></li>
+<li><code>tildes can also be used</code></li>
+</ul>
+
+<p>
+You can generate lists with the <code>-</code> character (seen above), or create numbered
+ones:
+</p>
+
+<ol class="org-ol">
+<li>Number one thing</li>
+<li>Number two thing</li>
+<li>Number three</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org9acd417" class="outline-2">
+<h2 id="org9acd417"><span class="section-number-2">4</span> Showing and hiding headlines</h2>
+<div class="outline-text-2" id="text-4">
+<p>
+You can hide the contents of a headline by putting the point (cursor) or it and
+hitting <code>TAB</code>.
+</p>
+
+<p>
+You can also toggle hiding and showing of <b>all</b> headlines with <code>SHIFT-TAB</code>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f6b3a5" class="outline-2">
+<h2 id="org1f6b3a5"><span class="section-number-2">5</span> Tables</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Auto expanding tables are one of the coolest features of org-mode, because
+tables in Markdown just plain suck. In order to create a new table, you can
+start typing it manually, or press <code>C-c |</code>, which will prompt for the table's
+dimensions.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">First Name</th>
+<th scope="col" class="org-left">Last Name</th>
+<th scope="col" class="org-right">Years using Emacs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Lee</td>
+<td class="org-left">Hinman</td>
+<td class="org-right">5</td>
+</tr>
+
+<tr>
+<td class="org-left">Mike</td>
+<td class="org-left">Hunsinger</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">Daniel</td>
+<td class="org-left">Glauser</td>
+<td class="org-right">4</td>
+</tr>
+
+<tr>
+<td class="org-left">Really-long-first-name-guy</td>
+<td class="org-left">long-last-name-pers</td>
+<td class="org-right">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div id="outline-container-org84a7747" class="outline-2">
+<h2 id="org84a7747"><span class="section-number-2">6</span> Org-mode links</h2>
+<div class="outline-text-2" id="text-6">
+<p>
+:PROPERTIES:&#x2026;
+</p>
+
+<p>
+In an org-mode file, you can press <code>C-c l</code> to store a pointer to wherever you
+are in the file. Then, with (or without) text highlighted hit <code>C-C C-l</code> to make
+it into a link.
+The example file for Magit
+If you don't want to store a pointer (ie, link to a website or something), you
+can just hit <code>C-c C-l</code> and type or paste the link. To manually create a link, do
+something like:
+</p>
+
+<p>
+The Denver Emacs Meetup Group
+</p>
+
+<p>
+Writequit site
+</p>
+
+<p>
+Google's web site
+</p>
+
+<p>
+(ignore the *<sub>SRC</sub> blocks for now, we'll get there)
+</p>
+
+<div class="org-src-container">
+<pre class="src src-fundamental">[[http://google.com/][Google]]
+</pre>
+</div>
+
+<p>
+You can link to files, images, websites, emails, irc, and all kinds of things.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org737a95f" class="outline-2">
+<h2 id="org737a95f"><span class="section-number-2">7</span> Various things you can add in headers</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+One of the most common uses for org-mode is a sort of "task list" or TODO list.
+Org-mode supports this by allowing markers in the headline for the state of a
+task. Let's look at an example:
+</p>
+</div>
+
+<div id="outline-container-org1804d8f" class="outline-3">
+<h3 id="org1804d8f"><span class="section-number-3">7.1</span> <span class="todo TODO">TODO</span> This is a task that needs doing</h3>
+</div>
+
+<div id="outline-container-org952cfe7" class="outline-3">
+<h3 id="org952cfe7"><span class="section-number-3">7.2</span> <span class="todo TODO">TODO</span> Another todo task</h3>
+<div class="outline-text-3" id="text-7-2">
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> sub task one</li>
+<li class="on"><code>[X]</code> sub task two</li>
+<li class="off"><code>[&#xa0;]</code> sub task three</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org0df79dc" class="outline-3">
+<h3 id="org0df79dc"><span class="section-number-3">7.3</span> Learn about org-mode</h3>
+<div class="outline-text-3" id="text-7-3">
+</div>
+<div id="outline-container-orgf3c9bf5" class="outline-4">
+<h4 id="orgf3c9bf5"><span class="section-number-4">7.3.1</span> <span class="todo TODO">TODO</span> learn todos</h4>
+</div>
+
+<div id="outline-container-org0b8a2ac" class="outline-4">
+<h4 id="org0b8a2ac"><span class="section-number-4">7.3.2</span> <span class="todo TODO">TODO</span> learn other stuff</h4>
+<div class="outline-text-4" id="text-7-3-2">
+<p>
+You can toggle each task in a list with the <code>C-c C-c</code> keyboard shortcut.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgb38fef8" class="outline-3">
+<h3 id="orgb38fef8"><span class="section-number-3">7.4</span> <span class="done DONE">DONE</span> I've already finished this one</h3>
+<div class="outline-text-3" id="text-7-4">
+<p>
+You can change the status of a task by hitting <code>C-c t</code> in the body of a task
+anywhere, which will prompt for the state to put it in.
+</p>
+
+<p>
+You can create as many of these as you'd like, for example (from my own config,
+use what works best for you, configuring them is a little out of scope right
+here) here's what I use:
+</p>
+</div>
+
+<div id="outline-container-orgcb21451" class="outline-4">
+<h4 id="orgcb21451"><span class="section-number-4">7.4.1</span> <span class="todo TODO">TODO</span> something that needs doing</h4>
+</div>
+<div id="outline-container-org5e96008" class="outline-4">
+<h4 id="org5e96008"><span class="section-number-4">7.4.2</span> <span class="done DONE">DONE</span> something that's already done</h4>
+</div>
+<div id="outline-container-orgce9bce1" class="outline-4">
+<h4 id="orgce9bce1"><span class="section-number-4">7.4.3</span> INPROGRESS something I'm currently doing</h4>
+</div>
+<div id="outline-container-org5a8eb96" class="outline-4">
+<h4 id="org5a8eb96"><span class="section-number-4">7.4.4</span> WAITING waiting for someone else before doing anything</h4>
+</div>
+<div id="outline-container-org528180b" class="outline-4">
+<h4 id="org528180b"><span class="section-number-4">7.4.5</span> NEEDSREVIEW there's a PR for this, it needs someone to look at it</h4>
+</div>
+<div id="outline-container-org0e0d991" class="outline-4">
+<h4 id="org0e0d991"><span class="section-number-4">7.4.6</span> HOLD this is in permanent hold until further notice</h4>
+</div>
+<div id="outline-container-org314f088" class="outline-4">
+<h4 id="org314f088"><span class="section-number-4">7.4.7</span> CANCELLED I don't need this any more</h4>
+</div>
+<div id="outline-container-org21f5c8a" class="outline-4">
+<h4 id="org21f5c8a"><span class="section-number-4">7.4.8</span> SOMEDAY I'd like to do this someday in the waaaaay off future</h4>
+<div class="outline-text-4" id="text-7-4-8">
+<p>
+A lot of people just use "TODO" and "DONE" though.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgbe0793a" class="outline-3">
+<h3 id="orgbe0793a"><span class="section-number-3">7.5</span> Adding tags and priorities</h3>
+<div class="outline-text-3" id="text-7-5">
+<p>
+You can add tags by putting them surrounded in ":" in the headline.
+Additionally, priorities
+</p>
+</div>
+
+<div id="outline-container-orgbbb340b" class="outline-4">
+<h4 id="orgbbb340b"><span class="section-number-4">7.5.1</span> Headline with a tag&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span></span></h4>
+</div>
+
+<div id="outline-container-org0759033" class="outline-4">
+<h4 id="org0759033"><span class="section-number-4">7.5.2</span> Another tagged headline&#xa0;&#xa0;&#xa0;<span class="tag"><span class="turing">turing</span>&#xa0;<span class="denver">denver</span></span></h4>
+</div>
+
+<div id="outline-container-org42056ae" class="outline-4">
+<h4 id="org42056ae"><span class="section-number-4">7.5.3</span> Headline with multiple tags&#xa0;&#xa0;&#xa0;<span class="tag"><span class="org">org</span>&#xa0;<span class="emacs">emacs</span></span></h4>
+<div class="outline-text-4" id="text-7-5-3">
+<p>
+Tags are just another way of organizing things.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgba09d7f" class="outline-4">
+<h4 id="orgba09d7f"><span class="section-number-4">7.5.4</span> Important task</h4>
+</div>
+<div id="outline-container-org8615f57" class="outline-4">
+<h4 id="org8615f57"><span class="section-number-4">7.5.5</span> Medium task</h4>
+</div>
+<div id="outline-container-org3afd48d" class="outline-4">
+<h4 id="org3afd48d"><span class="section-number-4">7.5.6</span> Non-important task</h4>
+<div class="outline-text-4" id="text-7-5-6">
+<p>
+Again you can configure these, or just use the 3 built in ones.
+</p>
+</div>
+</div>
+<div id="outline-container-org166f5bb" class="outline-4">
+<h4 id="org166f5bb"><span class="section-number-4">7.5.7</span> <span class="todo TODO">TODO</span> <code>[1/3]</code> Task with sub headlines</h4>
+<div class="outline-text-4" id="text-7-5-7">
+</div>
+<ol class="org-ol">
+<li><a id="org7dbf660"></a><span class="todo TODO">TODO</span> Finish thing<br /></li>
+<li><a id="org4f84637"></a><span class="todo TODO">TODO</span> Finish that other thing<br /></li>
+<li><a id="org2525e50"></a><span class="done DONE">DONE</span> Done with a thing<br /></li>
+</ol>
+</div>
+
+<div id="outline-container-org747a310" class="outline-4">
+<h4 id="org747a310"><span class="section-number-4">7.5.8</span> <code>[33%]</code> Task with sub headlines (percent cookie)</h4>
+<div class="outline-text-4" id="text-7-5-8">
+</div>
+<ol class="org-ol">
+<li><a id="orgc4d005a"></a><span class="todo TODO">TODO</span> Finish thing<br /></li>
+<li><a id="orgee79c6a"></a><span class="todo TODO">TODO</span> Finish that other thing<br /></li>
+<li><a id="orgaffb131"></a><span class="done DONE">DONE</span> Done with a thing<br /></li>
+</ol>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0e43ce7" class="outline-2">
+<h2 id="org0e43ce7"><span class="section-number-2">8</span> The TODO-planner payoff</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+:PROPERTIES:&#x2026;
+So TODOs are all well and good, but what is a really neat feature is when you
+can easily capture new TODOs and display them easily.
+</p>
+
+<p>
+In order to do this, let's configure a couple of Emacs options in your emacs init:
+</p>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">require</span> '<span style="font-weight: bold; text-decoration: underline;">org</span>)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Setup C-c c to capture new TODOs</span>
+(global-set-key (kbd <span style="font-style: italic;">"C-c c"</span>) 'org-capture)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Setup a key bind for the agenda</span>
+(global-set-key (kbd <span style="font-style: italic;">"C-c a"</span>) 'org-agenda)
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">Set up agenda to know about our file, you can use a list of files or</span>
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">directories here</span>
+(<span style="font-weight: bold;">setq</span> org-agenda-files '(<span style="font-style: italic;">"~/todo.org"</span>))
+<span style="font-weight: bold; font-style: italic;">;; </span><span style="font-weight: bold; font-style: italic;">A new template</span>
+(<span style="font-weight: bold;">setq</span> org-capture-templates
+      '((<span style="font-style: italic;">"t"</span> <span style="font-style: italic;">"Todo"</span> entry (file <span style="font-style: italic;">"~/todo.org"</span>)
+         <span style="font-style: italic;">"* TODO %?\n%U\n"</span>)))
+</pre>
+</div>
+
+<p>
+Now, hit <code>C-c c</code> to bring up the capture template list, then <code>t</code> to capture a
+new TODO item.
+</p>
+
+<p>
+Once you've captured a few TODOs, you can try out the agenda by hitting <code>C-c a</code>,
+which will prompt for what agenda you'd like to see, for now hit <code>t</code> to see the
+TODO list agenda.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org457c793" class="outline-2">
+<h2 id="org457c793"><span class="section-number-2">9</span> Exporting an org-mode buffer</h2>
+<div class="outline-text-2" id="text-9">
+<p>
+Org has a lot of export options, they are all contained behind a <code>C-c C-e</code>
+export backend, exporting to HTML, markdown, plain text, pdf, etc.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0795160" class="outline-2">
+<h2 id="org0795160"><span class="section-number-2">10</span> Show off other features of org-mode if we have more time</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+Maybe not in excruciating detail, but we can show off the power and cover it in
+more detail at a later time:
+</p>
+
+<ul class="org-ul">
+<li>refiling (<code>org-refile</code>)</li>
+<li>source code blocks</li>
+<li>org-babel</li>
+<li>clocking in/out</li>
+<li>table formulas</li>
+<li>custom agenda views</li>
+<li>capturing notes (not just TODOs)</li>
+<li>publishing projects remotely via TRAMP</li>
+</ul>
+
+<div class="LaTeX">
+<p>
+\(a + b\)
+</p>
+
+</div>
+
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(<span style="font-weight: bold;">defun</span> <span style="font-weight: bold;">my/function</span> ()
+  <span style="font-style: italic;">"docstring"</span>
+  (<span style="font-weight: bold;">interactive</span>)
+  (<span style="font-weight: bold;">progn</span>
+    (+ 1 1)
+    (message <span style="font-style: italic;">"Hi"</span>)))
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="font-weight: bold;">echo</span> $<span style="font-weight: bold; font-style: italic;">data</span> &gt; /tmp/foo
+<span style="font-weight: bold;">for</span> i<span style="font-weight: bold;"> in</span> <span style="font-weight: bold;">`cat /tmp/foo`</span>; <span style="font-weight: bold;">do</span>
+  <span style="font-weight: bold;">echo</span> $<span style="font-weight: bold; font-style: italic;">i</span>
+<span style="font-weight: bold;">done</span>
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-sh" id="org5c49ec0"><span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"hi"</span>
+</pre>
+</div>
+
+<div class="org-src-container">
+<pre class="src src-sh"><span style="font-weight: bold; font-style: italic;"># </span><span style="font-weight: bold; font-style: italic;">do some things</span>
+<span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"stuff"</span>
+<span style="font-weight: bold;">echo</span> <span style="font-style: italic;">"more stuff"</span>
+<span style="font-weight: bold;">echo</span> &lt;&lt;hi&gt;&gt;
+</pre>
+</div>
+
+<p>
+To enter and edit a block of text, use <code>C-c C-'</code>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
