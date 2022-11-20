@@ -1,0 +1,22 @@
+#+STARTUP: inlineimages
+#+ATTR_HTML: :src 
+
+[[./arrow.png]]
+
+[[./image/arrow.png]]
+
+
+nil? :)
+
+
+
+
+
+
+
+
+
+
+
+
+
